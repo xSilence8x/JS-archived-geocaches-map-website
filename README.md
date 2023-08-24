@@ -25,7 +25,7 @@ Visit updated [website](http://archivkesi.unas.cz/)
 
 - This project is based on Leaflet, an open-source JavaScript library for interactive maps.
 - Geocaching icons are used from [Groundspeak's Geocaching Icons](https://www.geocaching.com/about/icons.aspx).
-- HTML & CSS by user vendaciki
+- HTML & CSS by user [vendaciki](https://github.com/vendaciki)
 
 
 

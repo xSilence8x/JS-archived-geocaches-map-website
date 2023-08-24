@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<head>
+    <title>Archiv keší</title>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script> <!-- ikonka polohy -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- knihovna obrázků a písma -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <img style="float: left" src="https://i.ibb.co/Cnj6Lj3/output-onlinepngtools.png" alt="geo" />
+      <p>Jihomoravského kraje</p>
+    </header>
+   
+    <main>
+      <div id="map"></div>    
+    
+    <aside>
+        <h1>INFO O KEŠI</h1>
+        <section>
+          <h2><i class="fa fa-fw fa-user"></i>&nbsp;Název keše</h2>
+          <p class="info" id="nazev_kese_zde"></p>
+        </section>
+        <section>
+          <h2><i class="fa fa-fw fa-bookmark"></i>&nbsp;GC</h2>
+          <a class="info" id="gc_kod_zde" href="" target="_blank"></a>
+        </section>
+        <section>
+          <h2><i class="fa fa-fw fa-location-arrow"></i>&nbsp;GPS</h2>
+          <p class="info" id="souradniceDDMMmm"></p>
+          <p class="info" id="souradnice_zde"></p>
+        </section>
+    </aside>
+</main>    
+
+    <footer>
+    Pokud vám tu nějaká keš chybí, napište na e-mail: mar6wen8@gmail.com</br> 
+    &copy; 2021 <b>MarWen</b></br>
+    Aktualizováno den: <b>13.04.2021</b>
+    </footer>
+</br>
+    
+
+
+<script type="text/javascript" src="./js/data/tradickaList.js"></script>
+<script type="text/javascript" src="./js/data/mysteryList.js"></script>
+<script type="text/javascript" src="./js/data/multiList.js"></script>
+<script type="text/javascript" src="./js/data/wherigoList.js"></script>
+<script type="text/javascript" src="./js/data/letterboxList.js"></script>
+<script type="text/javascript" src="./js/data/virtualList.js"></script>
+<script type="text/javascript" src="./js/data/webcamList.js"></script>
+<script type="text/javascript" src="./js/data/earthList.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+
+
+
+</body>
+</html>

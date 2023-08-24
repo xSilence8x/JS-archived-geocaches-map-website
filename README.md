@@ -1,7 +1,7 @@
 # Geocaching Archive Website
 
 This website serves as a personal database for archived geocaches from the game of geocaching. It allows you to view the locations and details of various types of archived geocaches on an interactive map.
-Visit updated [website](http://archivkesi.unas.cz/){:target="_blank"}
+Visit updated [website](http://archivkesi.unas.cz/)
 
 
 ## Features
